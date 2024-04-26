@@ -5,6 +5,8 @@ RUN pip install pandas ;\
     pip install -U scikit-learn; \ 
     pip install conda-forge; \
     pip install ipympl;\
+    pip install seaborn;\
+    pip install mpld3;\
     mkdir -p /opt/notebooks ;\
     mkdir -p /usr/src/app
 

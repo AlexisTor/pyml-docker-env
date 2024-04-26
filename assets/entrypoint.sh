@@ -2,7 +2,7 @@
 set -e
 
 execute_before_start() {
-    echo "Execute befor start" > /running.txtß
+    echo "Execute befor start" > /running.txt
 }
 
 execute_after_start() {
