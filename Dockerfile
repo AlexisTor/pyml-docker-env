@@ -7,6 +7,7 @@ RUN pip install pandas ;\
     pip install ipympl;\
     pip install seaborn;\
     pip install mpld3;\
+    pip install graphviz;\
     mkdir -p /opt/notebooks ;\
     mkdir -p /usr/src/app
 
