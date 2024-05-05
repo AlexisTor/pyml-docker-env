@@ -8,6 +8,7 @@ RUN pip install pandas ;\
     pip install seaborn;\
     pip install mpld3;\
     pip install graphviz;\
+    pip install mglearn;\
     mkdir -p /opt/notebooks ;\
     mkdir -p /usr/src/app
 

@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="proline <= 755.0\nsamples = 142\nvalue = [48, 55, 39]\nclass = class_1", fillcolor="#f0fdf6"] ;
+1 [label="color_intensity <= 4.85\nsamples = 90\nvalue = [2, 53, 35]\nclass = class_1", fillcolor="#bef6d6"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="flavanoids <= 0.545\nsamples = 57\nvalue = [2, 51, 4]\nclass = class_1", fillcolor="#4fe88f"] ;
+1 -> 2 ;
+3 [label="samples = 3\nvalue = [0, 0, 3]\nclass = class_2", fillcolor="#8139e5"] ;
+2 -> 3 ;
+4 [label="samples = 54\nvalue = [2, 51, 1]\nclass = class_1", fillcolor="#44e688"] ;
+2 -> 4 ;
+5 [label="total_phenols <= 2.89\nsamples = 33\nvalue = [0, 2, 31]\nclass = class_2", fillcolor="#8946e7"] ;
+1 -> 5 ;
+6 [label="samples = 31\nvalue = [0, 0, 31]\nclass = class_2", fillcolor="#8139e5"] ;
+5 -> 6 ;
+7 [label="samples = 2\nvalue = [0, 2, 0]\nclass = class_1", fillcolor="#39e581"] ;
+5 -> 7 ;
+8 [label="total_phenols <= 2.05\nsamples = 52\nvalue = [46, 2, 4]\nclass = class_0", fillcolor="#e89152"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="total_phenols <= 1.24\nsamples = 5\nvalue = [0, 1, 4]\nclass = class_2", fillcolor="#a06aec"] ;
+8 -> 9 ;
+10 [label="samples = 1\nvalue = [0, 1, 0]\nclass = class_1", fillcolor="#39e581"] ;
+9 -> 10 ;
+11 [label="samples = 4\nvalue = [0, 0, 4]\nclass = class_2", fillcolor="#8139e5"] ;
+9 -> 11 ;
+12 [label="magnesium <= 133.5\nsamples = 47\nvalue = [46, 1, 0]\nclass = class_0", fillcolor="#e6843d"] ;
+8 -> 12 ;
+13 [label="samples = 46\nvalue = [46, 0, 0]\nclass = class_0", fillcolor="#e58139"] ;
+12 -> 13 ;
+14 [label="samples = 1\nvalue = [0, 1, 0]\nclass = class_1", fillcolor="#39e581"] ;
+12 -> 14 ;
+}
